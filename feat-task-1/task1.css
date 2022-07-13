@@ -180,7 +180,7 @@ html{
 .links-videos li>a{
     text-decoration: none;
     color: white;
-    background-color: grey;
+    background-color: #29383F;
     padding-top: 1.2rem;
     padding-bottom: 1rem;
     border-radius: .5rem;
@@ -201,4 +201,38 @@ html{
     width: 16.7rem;
     height: 10rem;
     border-radius: .3rem;
+}
+
+
+/*section3*/
+.sectionthird {
+    background-color: #0F181C;
+    color: white;
+}
+
+.sectionthird .sectionthree>h3{
+    padding: 5rem 0 2rem 45%;
+    word-spacing: .2rem;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.sectionthird .sectionthree>p{
+    color: rgba(255 255 255 / 0.5);
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin: 0 0 4rem 25%;
+}
+
+.sectionthree .threebox{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    gap: 3rem;
+}
+
+.sectionthird .threebox .threevideos .threevideo{
+    height: 15rem;
+    width: 20.5rem;
+
 }
