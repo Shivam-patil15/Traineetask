@@ -4,10 +4,20 @@
     box-sizing: border-box;
     font-family: 'Signika Negative', sans-serif;
 }
+
+
 html{
     font-size: 16px;
 }
 
+.wrapper {
+    width: 89.10%;
+}
+
+/* Navigation menu */
+.header .wrapper{
+    width: 100%;
+}
 .navigation-menu{
     display: flex;
     justify-content: space-between;
@@ -33,17 +43,21 @@ html{
     padding-top: 1.5rem;
 }
 
-
+/* Banner */
+.banner .wrapper{
+    width: 100%;
+}
 .banner {
     height: 38rem;
-    text-align: center;
     padding: 12rem 25%;
-    background-color: #504E8C;
- 
+    background: url("https://via.placeholder.com/1291x620/3F3D8B/3F3D8B?text=banner");
+    background-repeat: no-repeat;
+    
 }
 
 .banner .banner-content h2 {
     margin-bottom: 2rem;
+    text-align: center;
     font-size: 3rem;
     color: white;
     word-spacing: .5rem;
@@ -53,6 +67,7 @@ html{
     color: white;
     line-height: 1.8rem;
     font-weight: 100;
+    text-align: center;
 }
 
 .banner .banner-content .fbtn{
@@ -62,8 +77,64 @@ html{
     height: 2.5rem;
     width: 8rem;
     color: white;
-    margin-top: 2rem;
+    margin: 2rem 0 0 15rem;
     border-radius:3px;
     font-size: 1rem;
     font-weight: 700;
+    
+}
+
+.banner-content .fbtn:hover{
+     background-color: black;
+     color: white;
+}
+
+
+/* Section 1 */
+
+.sectionfirst {
+    background-color: #223540;
+    color: white;
+    
+}
+
+.sectionfirst .sectionone h3 {
+    padding: 5rem 0 2rem 30rem;
+    word-spacing: .2rem;
+    font-weight: 700;
+    font-size: 1.6rem;
+    
+}
+
+
+.sectionfirst .sectionone p {
+    color: rgba(255 255 255 / 0.5);
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin: 0 0 4rem 20rem;
+    
+}
+
+.sectionfirst .sectionone .twobox{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 8rem;
+    gap: 3rem;
+}
+
+.sectionfirst .sectionone .twobox .first-videoone .videoone{
+    height: 18rem;
+    width: 32rem;
+
+}
+
+.sectionfirst .sectionone .twobox .first-videoone{
+    background-color: #31424B;
+    padding-bottom: 1.5rem;
+    margin-bottom: 5rem;
+}
+
+.sectionfirst .sectionone .twobox .first-videoone figcaption{
+    text-align: center;
+    padding-top: 1rem;
 }
