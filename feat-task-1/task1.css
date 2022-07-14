@@ -19,6 +19,42 @@ html {
     width: 100%;
 }
 
+label.hamburger {
+    display: block;
+    background: rgb(21, 35, 57);
+    width: 40px;
+    height: 55px;
+    position: relative;
+    cursor: pointer;
+}
+
+input#hamburger {
+    display: none
+}
+
+.line {
+    position: absolute;
+    margin-left: 25rem;
+    height: 6px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+
+}
+
+.line:nth-child(1) {
+    top: 12px;
+}
+
+.line:nth-child(2) {
+    top: 24px;
+}
+
+.line:nth-child(3) {
+    top: 36px;
+}
+
+
+
 .navigation-menu {
     display: flex;
     justify-content: space-between;
@@ -32,7 +68,7 @@ html {
     cursor: pointer;
 }
 
-.navigation-menu .logo:hover{
+.navigation-menu .logo:hover {
     color: aqua;
 }
 
@@ -57,7 +93,7 @@ html {
     padding-top: 1.5rem;
 }
 
-.navigation-menu .navmenu a:hover{
+.navigation-menu .navmenu a:hover {
     color: aqua;
 }
 
@@ -82,7 +118,7 @@ html {
     word-spacing: .5rem;
 }
 
-.banner .banner-content h2:hover{
+.banner .banner-content h2:hover {
     color: black;
 }
 
@@ -185,7 +221,7 @@ html {
     padding-top: 5rem;
 }
 
-.sectionsecond .sectiontwo>h3:hover{
+.sectionsecond .sectiontwo>h3:hover {
     color: rgb(224, 145, 26);
 }
 
@@ -228,7 +264,7 @@ html {
     padding-left: 1rem;
 }
 
-.links-videos li>a:hover{
+.links-videos li>a:hover {
     background-color: aqua;
     color: black;
 }
@@ -538,6 +574,16 @@ footer .wrapper {
 @media only screen and (max-width: 1024px) {
 
 
+    .line {
+        position: absolute;
+        margin-left: 17.2rem;
+        height: 6px;
+        width: 100%;
+        background: rgb(255, 255, 255);
+    
+    }
+
+
     .banner .banner-content h2 {
         font-size: 3rem;
     }
@@ -632,6 +678,15 @@ footer .wrapper {
         font-size: 1.5rem;
     }
 
+    .line {
+        position: absolute;
+        margin-left: 16.2rem;
+        height: 6px;
+        width: 100%;
+        background: rgb(255, 255, 255);
+    
+    }
+
     .navigation-menu .navmenu {
         font-size: 1.6rem;
 
@@ -667,7 +722,25 @@ footer .wrapper {
 @media only screen and (max-width: 480px) {
     html {
         font-size: .49rem;
-        
+
+    }
+
+    label.hamburger {
+        display: block;
+        background: rgb(21, 35, 57);
+        width: 5rem;
+        height: 6rem;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .line {
+        position: absolute;
+        margin-left: 14.2rem;
+        height: 4px;
+        width: 90%;
+        background: rgb(255, 255, 255);
+    
     }
 
 
