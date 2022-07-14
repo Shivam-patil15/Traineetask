@@ -19,6 +19,11 @@ html {
     width: 100%;
 }
 
+.header{
+    height: 3rem;
+}
+
+/*
 label.hamburger {
     display: block;
     background: rgb(21, 35, 57);
@@ -53,7 +58,7 @@ input#hamburger {
     top: 36px;
 }
 
-
+*/
 
 .navigation-menu {
     display: flex;
@@ -61,11 +66,16 @@ input#hamburger {
     align-items: center;
     background-color: rgb(21, 35, 57);
     color: white;
-    padding: 1rem 2%;
+    padding: .8rem 1.3%;
 }
 
 .navigation-menu .logo {
     cursor: pointer;
+
+}
+
+.navigation-menu .logo h1{
+    font-size: 1.1rem;
 }
 
 .navigation-menu .logo:hover {
@@ -75,13 +85,14 @@ input#hamburger {
 .navigation-menu .logo .lighttext {
     color: rgba(255 255 255 / 0.8);
     font-weight: 100;
-    font-size: 1.8rem;
+    font-size: 1rem;
 }
 
 .navigation-menu .navmenu {
     list-style: none;
     cursor: pointer;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    color: #4A5564;
 }
 
 
@@ -103,7 +114,7 @@ input#hamburger {
 }
 
 .banner {
-    height: 38rem;
+    height: 38.7rem;
     padding: 12rem 25%;
     background: url("https://via.placeholder.com/2500x620/3F3D8B/3F3D8B?text=banner");
     background-repeat: no-repeat;
@@ -113,7 +124,8 @@ input#hamburger {
 .banner .banner-content h2 {
     margin-bottom: 2rem;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.8rem;
+    font-weight: 800;
     color: white;
     word-spacing: .5rem;
 }
@@ -127,14 +139,16 @@ input#hamburger {
     line-height: 1.8rem;
     font-weight: 100;
     text-align: center;
+    font-size: 1.2rem;
+    width:43.5rem;
 }
 
 .banner .banner-content .fbtn {
     cursor: pointer;
     border: 1px solid #8595A1;
     background-color: transparent;
-    height: 2.5rem;
-    width: 8rem;
+    height: 3.5rem;
+    width: 9rem;
     color: white;
     margin: 2rem 0 0 40%;
     border-radius: 3px;
