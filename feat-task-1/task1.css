@@ -32,7 +32,11 @@ html {
     cursor: pointer;
 }
 
-.navigation-menu .logo .lighttext{
+.navigation-menu .logo:hover{
+    color: aqua;
+}
+
+.navigation-menu .logo .lighttext {
     color: rgba(255 255 255 / 0.8);
     font-weight: 100;
     font-size: 1.8rem;
@@ -41,13 +45,20 @@ html {
 .navigation-menu .navmenu {
     list-style: none;
     cursor: pointer;
+    font-size: 1.2rem;
 }
+
+
 
 
 .navigation-menu .navmenu a {
     text-decoration: none;
     color: white;
     padding-top: 1.5rem;
+}
+
+.navigation-menu .navmenu a:hover{
+    color: aqua;
 }
 
 /* Banner */
@@ -69,6 +80,10 @@ html {
     font-size: 3rem;
     color: white;
     word-spacing: .5rem;
+}
+
+.banner .banner-content h2:hover{
+    color: black;
 }
 
 .banner .banner-content p {
@@ -114,6 +129,10 @@ html {
 
 }
 
+.sectionfirst .sectionone h3:hover {
+    color: black;
+}
+
 
 .sectionfirst .sectionone p {
     color: rgba(255 255 255 / 0.5);
@@ -142,6 +161,11 @@ html {
     margin-bottom: 5rem;
 }
 
+.sectionfirst .sectionone .twobox .first-videoone:hover {
+    background-color: rgb(37, 165, 204);
+    color: black;
+}
+
 .sectionfirst .twobox .first-videoone>figcaption {
     text-align: center;
     padding-top: 1rem;
@@ -159,6 +183,10 @@ html {
     font-weight: 700;
     margin-left: 8%;
     padding-top: 5rem;
+}
+
+.sectionsecond .sectiontwo>h3:hover{
+    color: rgb(224, 145, 26);
 }
 
 .sectionsecond .sectiontwo>p {
@@ -184,7 +212,7 @@ html {
     width: 15rem;
 }
 
-.links-videos li>.active{
+.links-videos li>.active {
     background-color: #AA14CC;
 }
 
@@ -198,6 +226,11 @@ html {
     border-radius: .5rem;
     height: 2rem;
     padding-left: 1rem;
+}
+
+.links-videos li>a:hover{
+    background-color: aqua;
+    color: black;
 }
 
 .links-videos .videocontent {
@@ -230,6 +263,10 @@ html {
     font-size: 1.6rem;
 }
 
+.sectionthird .sectionthree>h3:hover {
+    color: rgb(224, 145, 26);
+}
+
 .sectionthird .sectionthree>p {
     color: rgba(255 255 255 / 0.5);
     font-size: 1.2rem;
@@ -251,6 +288,11 @@ html {
     margin-bottom: 5rem;
 }
 
+.sectionthird .threebox .threevideos:hover {
+    background-color: aquamarine;
+    color: black;
+}
+
 .sectionthird .threebox .threevideos .videothree {
     height: 15rem;
     width: 21.6rem;
@@ -263,25 +305,28 @@ html {
 
 
 
+
+
 /*Footer */
-footer .wrapper{
+footer .wrapper {
     width: 100%;
 }
-.footerone{
+
+.footerone {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding-left: 5%;
     background-color: #020B13;
 }
 
-.footerone .f1{
+.footerone .f1 {
     margin: 5rem 0 2rem 0;
-   
+
     list-style: none;
-    
+
 }
 
-.footerone .f1>li{
+.footerone .f1>li {
     padding-bottom: 1rem;
     padding-top: 1rem;
     font-size: 1rem;
@@ -291,47 +336,436 @@ footer .wrapper{
 
 .footerone .f1>.bordernone {
     border: none;
-    
+
 }
 
-.footerone .f1  .bordernone .footer-head{
+.footerone .f1 .bordernone .footer-head {
     font-weight: 700;
     font-size: 1.8rem;
 }
 
+.footerone .f1 .bordernone .footer-head:hover {
+    color: rgb(37, 165, 204);
+}
 
-.footerone .f1 li>a{
+
+.footerone .f1 li>a {
     color: rgba(255 255 255 / 0.8);
     text-decoration: none;
-    
+
 }
 
-.footertwo{
+.footertwo {
     background-color: #020B13;
-    
+
 }
 
-.footertwo .f2{
+.footertwo .f2 {
     text-align: center;
 
 }
 
-.footertwo .f2 li{
+.footertwo .f2 li {
     display: inline-block;
     list-style: none;
     padding: .5rem;
     margin-top: 2rem;
 }
 
+.footertwo .f2 li a:hover {
+    color: cadetblue;
+}
 
-.footertwo .f2 li a{
+
+.footertwo .f2 li a {
     text-decoration: none;
     color: white;
 }
 
+.footertwo .f2 li a:hover {
+    color: cadetblue;
+}
 
-.footertwo>p{
+
+.footertwo>p {
     text-align: center;
     color: white;
     padding-bottom: 3rem;
+}
+
+.footertwo>p:hover {
+    color: aqua;
+}
+
+
+
+
+/*Media queries*/
+/*
+
+@media only screen and (max-width: 1920px) {
+    .navigation-menu {
+        font-size: 1.5rem;
+    }
+
+    .navigation-menu .logo .lighttext {
+
+        font-size: 2.5rem;
+    }
+
+
+    .banner {
+        font-size: 1.4rem;
+    }
+
+    .banner .banner-content .fbtn {
+        height: 3.5rem;
+        width: 12rem;
+        font-size: 1.3rem;
+    }
+
+
+    .sectionfirst .sectionone h3 {
+        padding: 5rem 0 2rem 46%;
+        font-size: 2.5rem;
+    }
+
+
+    .sectionfirst .sectionone p {
+        margin: 0 0 4rem 32%;
+        font-size: 1.5rem;
+    }
+
+
+
+    .sectionfirst .sectionone .twobox .first-videoone .videoone {
+        height: 22rem;
+        width: 45rem;
+
+    }
+
+    .sectionfirst .twobox .first-videoone>figcaption {
+        text-align: center;
+        padding-top: 1rem;
+        font-size: 1.5rem;
+    }
+
+
+    .sectionsecond {
+        padding-left: 3rem;
+    }
+
+    .sectionsecond .sectiontwo>h3 {
+        font-size: 2.5rem;
+        padding-top: 8rem;
+    }
+
+    .sectionsecond .sectiontwo>p {
+        font-size: 1.5rem;
+    }
+
+    .links-videos ul>.videolink {
+        width: 18rem;
+        font-size: 1.5rem;
+    }
+
+    .links-videos li>a {
+        padding-left: 1.5rem;
+    }
+
+
+    .links-videos .videocontent>video {
+        width: 22rem;
+        height: 18rem;
+        border-radius: .3rem;
+    }
+
+
+    .sectionthird .sectionthree>h3 {
+        font-size: 2.5rem;
+    }
+
+    .sectionthird .sectionthree>p {
+        font-size: 1.5rem;
+        margin: 0 0 4rem 28%;
+    }
+
+
+    .sectionthree .threebox {
+        margin-left: 15%;
+    }
+
+    .sectionthird .threebox .threevideos .videothree {
+        height: 20rem;
+        width: 32rem;
+    }
+
+
+    .sectionthird .threebox .threevideos>figcaption {
+        text-align: center;
+        padding-top: 1rem;
+        font-size: 1.3rem;
+    }
+
+    .footerone {
+        padding-left: 8.5%;
+    }
+
+    .footerone .f1 .bordernone .footer-head {
+        font-size: 2.5rem;
+    }
+
+    .footerone .f1>li {
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        font-size: 1.5rem;
+        border-bottom: 1px solid rgba(255 255 255 / 0.5);
+        width: 28rem;
+    }
+
+    .footertwo {
+        font-size: 1.5rem;
+
+    }
+
+}
+
+*/
+
+
+@media only screen and (max-width: 1024px) {
+
+
+    .banner .banner-content h2 {
+        font-size: 3rem;
+    }
+
+    .banner .banner-content p {
+        font-size: 1rem;
+    }
+
+    .banner .banner-content .fbtn {
+        margin: 2rem 0 0 35%;
+    }
+
+    .sectionfirst .sectionone h3 {
+        padding: 5rem 0 2rem 40%;
+        font-size: 1.5rem;
+    }
+
+
+    .sectionfirst .sectionone p {
+        margin: 0 0 4rem 25%;
+        font-size: 1rem;
+    }
+
+    .sectionfirst .sectionone .twobox .first-videoone .videoone {
+        height: 15rem;
+        width: 25rem;
+
+    }
+
+    .sectionsecond .sectiontwo>h3 {
+        font-size: 1.5rem;
+        padding-top: 8rem;
+    }
+
+    .sectionsecond .sectiontwo>p {
+        font-size: 1rem;
+    }
+
+    .links-videos .videocontent>video {
+        width: 12.5rem;
+        height: 10rem;
+        border-radius: .3rem;
+    }
+
+    .sectionthird .threebox .threevideos .videothree {
+        height: 10rem;
+        width: 16rem;
+    }
+
+    .sectionthird .sectionthree>h3 {
+        font-size: 1.5rem;
+    }
+
+    .sectionthird .sectionthree>p {
+        font-size: 1rem;
+        margin: 0 0 4rem 25%;
+    }
+
+    .sectionthird .threebox .threevideos>figcaption {
+        font-size: .8rem;
+    }
+
+    .footerone {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-left: 6%;
+        background-color: #020B13;
+
+    }
+
+    .footerone .f1 .bordernone .footer-head {
+        font-size: 1.5rem;
+    }
+
+    .footerone .f1>li {
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        font-size: 1rem;
+        border-bottom: 1px solid rgba(255 255 255 / 0.5);
+        width: 15rem;
+    }
+
+
+}
+
+@media only screen and (max-width: 767px) {
+    html {
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    .navigation-menu .navmenu {
+        font-size: 1.6rem;
+
+    }
+
+    .banner {
+        height: 28rem;
+        padding: 8rem 20%;
+
+    }
+
+    .banner .banner-content .fbtn {
+        margin: 2rem 0 0 37%;
+    }
+
+    .sectionthird .threebox .threevideos>figcaption {
+        text-align: center;
+        padding-top: 1rem;
+        line-height: 1.3rem;
+        font-size: .9rem;
+    }
+
+    .footertwo>p {
+        padding-left: 1rem;
+        font-size: 1.2rem;
+    }
+
+
+
+}
+
+
+@media only screen and (max-width: 480px) {
+    html {
+        font-size: .49rem;
+        
+    }
+
+
+
+    .banner {
+        height: 32rem;
+        padding: 8rem 20%;
+
+    }
+
+
+
+
+    .banner .banner-content p {
+        color: white;
+        line-height: 1.8rem;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .banner .banner-content .fbtn {
+        cursor: pointer;
+        border: 1px solid #8595A1;
+        background-color: transparent;
+        height: 2.5rem;
+        width: 8rem;
+        color: white;
+        margin: 2rem 0 0 39%;
+        border-radius: 3px;
+        font-size: 1.1rem;
+        font-weight: 400;
+
+    }
+
+    .sectionfirst .sectionone p {
+        color: rgba(255 255 255 / 0.5);
+        font-size: 1.15rem;
+        font-weight: 400;
+        margin: 0 0 4rem 20%;
+
+    }
+
+
+    .sectionfirst .twobox .first-videoone>figcaption {
+        text-align: center;
+        padding-top: 1rem;
+        font-size: 1.3rem;
+    }
+
+    .sectionsecond .sectiontwo>p {
+        font-size: 1.15rem;
+        font-weight: 100;
+    }
+
+
+    .sectionthird .sectionthree>p {
+        color: rgba(255 255 255 / 0.5);
+        font-size: 1.2rem;
+        font-weight: 100;
+        margin: 0 0 4rem 15%;
+        width: 100%;
+    }
+
+
+    .sectionthree .threebox {
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 15%;
+        gap: 3rem;
+    }
+
+
+
+    .links-videos ul>.videolink {
+        list-style: none;
+        margin-top: 3rem;
+        width: 15rem;
+    }
+
+
+    .sectionthird .threebox .threevideos>figcaption {
+        text-align: center;
+        padding-top: 1rem;
+        font-weight: 200;
+    }
+
+    .footerone .f1 li>a {
+        color: rgba(255 255 255 / 0.8);
+        text-decoration: none;
+        font-size: 1.15rem;
+        font-weight: 100;
+    }
+
+    .footertwo .f2 li {
+        font-size: 1.15rem;
+        font-weight: 100;
+    }
+
+
+
+
+
 }
