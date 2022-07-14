@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,7 +6,7 @@
 }
 
 
-html{
+html {
     font-size: 16px;
 }
 
@@ -15,44 +15,52 @@ html{
 }
 
 /* Navigation menu */
-.header .wrapper{
+.header .wrapper {
     width: 100%;
 }
-.navigation-menu{
+
+.navigation-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(21,35,57);
+    background-color: rgb(21, 35, 57);
     color: white;
-    padding:1rem 2%;
+    padding: 1rem 2%;
 }
 
-.navigation-menu .logo{
+.navigation-menu .logo {
     cursor: pointer;
 }
 
-.navigation-menu .navmenu{
+.navigation-menu .logo .lighttext{
+    color: rgba(255 255 255 / 0.8);
+    font-weight: 100;
+    font-size: 1.8rem;
+}
+
+.navigation-menu .navmenu {
     list-style: none;
     cursor: pointer;
 }
 
 
-.navigation-menu .navmenu a{
+.navigation-menu .navmenu a {
     text-decoration: none;
     color: white;
     padding-top: 1.5rem;
 }
 
 /* Banner */
-.banner .wrapper{
+.banner .wrapper {
     width: 100%;
 }
+
 .banner {
     height: 38rem;
     padding: 12rem 25%;
-    background: url("https://via.placeholder.com/1291x620/3F3D8B/3F3D8B?text=banner");
+    background: url("https://via.placeholder.com/2500x620/3F3D8B/3F3D8B?text=banner");
     background-repeat: no-repeat;
-    
+
 }
 
 .banner .banner-content h2 {
@@ -63,14 +71,14 @@ html{
     word-spacing: .5rem;
 }
 
-.banner .banner-content p{
+.banner .banner-content p {
     color: white;
     line-height: 1.8rem;
     font-weight: 100;
     text-align: center;
 }
 
-.banner .banner-content .fbtn{
+.banner .banner-content .fbtn {
     cursor: pointer;
     border: 1px solid #8595A1;
     background-color: transparent;
@@ -78,15 +86,15 @@ html{
     width: 8rem;
     color: white;
     margin: 2rem 0 0 40%;
-    border-radius:3px;
+    border-radius: 3px;
     font-size: 1rem;
     font-weight: 700;
-    
+
 }
 
-.banner-content .fbtn:hover{
-     background-color: black;
-     color: white;
+.banner-content .fbtn:hover {
+    background-color: black;
+    color: white;
 }
 
 
@@ -95,7 +103,7 @@ html{
 .sectionfirst {
     background-color: #223540;
     color: white;
-    
+
 }
 
 .sectionfirst .sectionone h3 {
@@ -103,7 +111,7 @@ html{
     word-spacing: .2rem;
     font-weight: 700;
     font-size: 1.6rem;
-    
+
 }
 
 
@@ -112,48 +120,48 @@ html{
     font-size: 1.2rem;
     font-weight: 200;
     margin: 0 0 4rem 25%;
-    
+
 }
 
-.sectionfirst .sectionone .twobox{
+.sectionfirst .sectionone .twobox {
     display: flex;
     justify-content: space-evenly;
     margin-left: 10%;
     gap: 3rem;
 }
 
-.sectionfirst .sectionone .twobox .first-videoone .videoone{
+.sectionfirst .sectionone .twobox .first-videoone .videoone {
     height: 18rem;
     width: 32rem;
 
 }
 
-.sectionfirst .sectionone .twobox .first-videoone{
+.sectionfirst .sectionone .twobox .first-videoone {
     background-color: #31424B;
     padding-bottom: 1.5rem;
     margin-bottom: 5rem;
 }
 
-.sectionfirst .twobox .first-videoone>figcaption{
+.sectionfirst .twobox .first-videoone>figcaption {
     text-align: center;
     padding-top: 1rem;
 }
 
 
 /* Section 2*/
-.sectionsecond{
+.sectionsecond {
     background-color: #101F28;
     color: white;
-} 
+}
 
-.sectionsecond .sectiontwo>h3{
+.sectionsecond .sectiontwo>h3 {
     font-size: 2rem;
     font-weight: 700;
     margin-left: 8%;
-    padding-top: 5rem;  
+    padding-top: 5rem;
 }
 
-.sectionsecond .sectiontwo>p{
+.sectionsecond .sectiontwo>p {
     font-size: 1.2rem;
     font-weight: 100;
     margin-left: 8%;
@@ -170,34 +178,39 @@ html{
 }
 
 
-.links-videos ul>.videolink{
+.links-videos ul>.videolink {
     list-style: none;
     margin-top: 3rem;
     width: 15rem;
 }
 
+.links-videos li>.active{
+    background-color: #AA14CC;
+}
 
-.links-videos li>a{
+.links-videos li>a {
     text-decoration: none;
     color: white;
     background-color: #29383F;
     padding-top: 1.2rem;
     padding-bottom: 1rem;
+    padding-right: 2rem;
     border-radius: .5rem;
     height: 2rem;
+    padding-left: 1rem;
 }
 
-.links-videos .videocontent{
+.links-videos .videocontent {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 1rem;
     row-gap: 2rem;
     margin-top: 1.5rem;
     margin-bottom: 5rem;
-    
+
 }
 
-.links-videos .videocontent>video{
+.links-videos .videocontent>video {
     width: 16.7rem;
     height: 10rem;
     border-radius: .3rem;
@@ -210,29 +223,115 @@ html{
     color: white;
 }
 
-.sectionthird .sectionthree>h3{
+.sectionthird .sectionthree>h3 {
     padding: 5rem 0 2rem 45%;
     word-spacing: .2rem;
     font-weight: 700;
     font-size: 1.6rem;
 }
 
-.sectionthird .sectionthree>p{
+.sectionthird .sectionthree>p {
     color: rgba(255 255 255 / 0.5);
     font-size: 1.2rem;
     font-weight: 200;
     margin: 0 0 4rem 25%;
 }
 
-.sectionthree .threebox{
+.sectionthree .threebox {
     display: flex;
     justify-content: space-evenly;
     margin-left: 10%;
     gap: 3rem;
 }
 
-.sectionthird .threebox .threevideos .threevideo{
-    height: 15rem;
-    width: 20.5rem;
+.sectionthird .threebox .threevideos {
 
+    background-color: #343B3E;
+    padding-bottom: 1.5rem;
+    margin-bottom: 5rem;
+}
+
+.sectionthird .threebox .threevideos .videothree {
+    height: 15rem;
+    width: 21.6rem;
+}
+
+.sectionthird .threebox .threevideos>figcaption {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+
+
+/*Footer */
+footer .wrapper{
+    width: 100%;
+}
+.footerone{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 5%;
+    background-color: #020B13;
+}
+
+.footerone .f1{
+    margin: 5rem 0 2rem 0;
+   
+    list-style: none;
+    
+}
+
+.footerone .f1>li{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    font-size: 1rem;
+    border-bottom: 1px solid rgba(255 255 255 / 0.5);
+    width: 20rem;
+}
+
+.footerone .f1>.bordernone {
+    border: none;
+    
+}
+
+.footerone .f1  .bordernone .footer-head{
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+
+.footerone .f1 li>a{
+    color: rgba(255 255 255 / 0.8);
+    text-decoration: none;
+    
+}
+
+.footertwo{
+    background-color: #020B13;
+    
+}
+
+.footertwo .f2{
+    text-align: center;
+
+}
+
+.footertwo .f2 li{
+    display: inline-block;
+    list-style: none;
+    padding: .5rem;
+    margin-top: 2rem;
+}
+
+
+.footertwo .f2 li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.footertwo>p{
+    text-align: center;
+    color: white;
+    padding-bottom: 3rem;
 }
