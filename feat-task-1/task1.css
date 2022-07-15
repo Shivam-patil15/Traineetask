@@ -86,7 +86,7 @@ input#hamburger {
 
 }
 
-.navigation-menu .logo:hover {
+.navigation-menu .logo h1>a:hover {
     color: aqua;
 }
 
