@@ -237,6 +237,7 @@ input#hamburger {
 
 
 /* Section 2*/
+
 .sectionsecond .wrapper {
     width: 100%;
 }
@@ -474,9 +475,9 @@ footer .wrapper {
     color: cadetblue;
 }
 
-.footertwo .f2 li .twitter::before {
+.footertwo .f2 li>.twitter::before {
     content: "\f099";
-    font-family: "Font Awesome 5 Free";
+    font-family: "font awesome 5 free";
     color: white;
     font-size: 5rem;
     
