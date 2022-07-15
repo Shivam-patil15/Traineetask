@@ -27,25 +27,26 @@ html {
 label.hamburger {
     position: relative;
     display: block;
-    background: rgb(21, 35, 57);;
-    width: 22px; 
+    background: rgb(21, 35, 57);
+    ;
+    width: 22px;
     height: 25px;
     cursor: pointer;
     bottom: 5px;
- }
- 
- input#hamburger {
-   display:none
- }
- 
- .line {
+}
+
+input#hamburger {
+    display: none
+}
+
+.line {
     position: absolute;
     height: 3px;
     margin-left: 49rem;
     width: 70%;
     background: rgb(255, 255, 255);
     transition: 0.5s;
- }
+}
 
 .line:nth-child(1) {
     top: 8px;
@@ -57,7 +58,7 @@ label.hamburger {
 
 .line:nth-child(3) {
     top: 24px;
-    
+
 }
 
 
@@ -78,6 +79,12 @@ label.hamburger {
 
 .navigation-menu .logo h1 {
     font-size: 1.8rem;
+}
+
+.navigation-menu .logo h1>a {
+    color: white;
+    text-decoration: none;
+
 }
 
 .navigation-menu .logo:hover {
@@ -208,14 +215,14 @@ label.hamburger {
     width: 55.4rem;
     border-top-left-radius: .5rem;
     border-top-right-radius: .5rem;
-   
+
 
 }
 
 .sectionfirst .sectionone .twobox .first-videoone {
     background-color: #31424B;
     padding-bottom: 1.5rem;
-    margin-bottom: 5rem; 
+    margin-bottom: 5rem;
     border-bottom-left-radius: .5rem;
     border-bottom-right-radius: .5rem;
 
@@ -241,7 +248,7 @@ label.hamburger {
     background-color: #101F28;
     color: white;
     height: 67rem;
-    
+
 }
 
 .sectionsecond .sectiontwo>h3 {
@@ -308,7 +315,7 @@ label.hamburger {
     margin-top: 1.5rem;
     margin-bottom: 5rem;
     padding-right: 15rem;
-    
+
 
 }
 
@@ -316,7 +323,7 @@ label.hamburger {
     width: 25rem;
     height: 15.6rem;
     border-radius: .3rem;
-    
+
 }
 
 
@@ -430,7 +437,7 @@ footer .wrapper {
     color: rgba(255 255 255 / 0.8);
     text-decoration: none;
     font-size: 1.5rem;
-    
+
 
 }
 
@@ -450,7 +457,7 @@ footer .wrapper {
     padding: .5rem;
     margin-top: 6rem;
     font-size: 1.6rem;
-    
+
 }
 
 .footertwo .f2 li a:hover {
@@ -461,7 +468,7 @@ footer .wrapper {
 .footertwo .f2 li a {
     text-decoration: none;
     color: white;
-    
+
 }
 
 .footertwo .f2 li a:hover {
