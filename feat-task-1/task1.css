@@ -139,9 +139,7 @@ input#hamburger {
     word-spacing: .5rem;
 }
 
-.banner .banner-content h2:hover {
-    color: black;
-}
+
 
 .banner .banner-content p {
     color: white;
@@ -188,9 +186,7 @@ input#hamburger {
 
 }
 
-.sectionfirst .sectionone h3:hover {
-    color: black;
-}
+
 
 
 .sectionfirst .sectionone p {
@@ -207,8 +203,9 @@ input#hamburger {
     margin-left: 12%;
     gap: 4.6rem;
 
-
 }
+
+
 
 .sectionfirst .sectionone .twobox .first-videoone .videoone {
     height: 31.5rem;
@@ -225,10 +222,7 @@ input#hamburger {
     margin-bottom: 5rem;
     border-bottom-left-radius: .5rem;
     border-bottom-right-radius: .5rem;
-
-
 }
-
 
 
 .sectionfirst .twobox .first-videoone>figcaption {
@@ -244,6 +238,9 @@ input#hamburger {
 
 
 /* Section 2*/
+.sectionsecond .wrapper{
+    width: 100%;
+}
 .sectionsecond {
     background-color: #101F28;
     color: white;
@@ -254,18 +251,15 @@ input#hamburger {
 .sectionsecond .sectiontwo>h3 {
     font-size: 3.5rem;
     font-weight: 700;
-    margin-left: 5.5%;
+    margin-left: 4.8%;
     padding-top: 10.5rem;
 }
 
-.sectionsecond .sectiontwo>h3:hover {
-    color: rgb(224, 145, 26);
-}
 
 .sectionsecond .sectiontwo>p {
     font-size: 1.8rem;
     font-weight: 100;
-    margin-left: 5.5%;
+    margin-left: 4.8%;
     padding-top: 3.5rem;
     color: rgba(255 255 255 / 0.5);
 }
@@ -277,6 +271,8 @@ input#hamburger {
     margin-left: 5.3%;
     margin-top: 3rem;
 }
+
+
 
 
 .links-videos ul>.videolink {
@@ -295,7 +291,7 @@ input#hamburger {
     background-color: #29383F;
     padding-top: 1.5rem;
     padding-bottom: 1rem;
-    padding-right: 7.5rem;
+    padding-right: 10.5rem;
     border-radius: .5rem;
     height: 2rem;
     padding-left: 1.5rem;
@@ -314,7 +310,7 @@ input#hamburger {
     row-gap: 2rem;
     margin-top: 1.5rem;
     margin-bottom: 5rem;
-    padding-right: 15rem;
+    padding-right: 6rem;
 
 
 }
@@ -323,8 +319,13 @@ input#hamburger {
     width: 25rem;
     height: 15.6rem;
     border-radius: .3rem;
-
+    
 }
+
+
+
+
+
 
 
 /*section3*/
@@ -334,6 +335,8 @@ input#hamburger {
     height: 64rem;
 }
 
+
+
 .sectionthird .sectionthree>h3 {
     padding: 10rem 0 2rem 40%;
     word-spacing: .2rem;
@@ -341,9 +344,6 @@ input#hamburger {
     font-size: 3.5rem;
 }
 
-.sectionthird .sectionthree>h3:hover {
-    color: rgb(224, 145, 26);
-}
 
 .sectionthird .sectionthree>p {
     color: rgba(255 255 255 / 0.5);
@@ -355,10 +355,11 @@ input#hamburger {
 .sectionthree .threebox {
     display: flex;
     justify-content: space-evenly;
-    margin-left: 10%;
-    gap: 3rem;
+    margin-left: 35rem;
+    gap: 4.8rem;
     border-top-left-radius: .5rem;
     border-top-right-radius: .5rem;
+    width:50%;
 }
 
 .sectionthird .threebox .threevideos {
@@ -399,7 +400,7 @@ footer .wrapper {
 .footerone {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding-left: 5%;
+    padding-left: 4%;
     background-color: #020B13;
 }
 
