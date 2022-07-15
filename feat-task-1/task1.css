@@ -237,9 +237,10 @@ input#hamburger {
 
 
 /* Section 2*/
-.sectionsecond .wrapper{
+.sectionsecond .wrapper {
     width: 100%;
 }
+
 .sectionsecond {
     background-color: #101F28;
     color: white;
@@ -318,7 +319,7 @@ input#hamburger {
     width: 25rem;
     height: 15.6rem;
     border-radius: .3rem;
-    
+
 }
 
 
@@ -358,7 +359,7 @@ input#hamburger {
     gap: 4.8rem;
     border-top-left-radius: .5rem;
     border-top-right-radius: .5rem;
-    width:50%;
+    width: 50%;
 }
 
 .sectionthird .threebox .threevideos {
@@ -460,9 +461,7 @@ footer .wrapper {
 
 }
 
-.footertwo .f2 li a:hover {
-    color: cadetblue;
-}
+
 
 
 .footertwo .f2 li a {
@@ -473,6 +472,14 @@ footer .wrapper {
 
 .footertwo .f2 li a:hover {
     color: cadetblue;
+}
+
+.footertwo .f2 li .twitter::before {
+    content: "\f099";
+    font-family: "Font Awesome 5 Free";
+    color: white;
+    font-size: 5rem;
+    
 }
 
 
