@@ -284,16 +284,80 @@ form.search::after {
 }*/
 
 .mostviewed .wrapper{
-	width: 100%;
 	position: relative;
 }
 .right-aside{
 	position: absolute;
 	top: 0;
-	margin-left: 900px;
+	margin-left: 660px;
 	font-size: 13px;
 }
 
+.right-aside .asideone{
+	width: 236px;
+	border: 1px solid #1A326B;
+	background-color: #1A326B;
+}
+
+.right-aside .asideone>h3{
+	margin: 12px 15px 10px 0;
+	padding-left: 11px;
+	color: #fff;
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+.right-aside .asideone .aside-btn{
+	width: 211px;
+	border: none;
+	font-size: 10px;
+	background-color: #4CBCF0;
+	color: #fff;
+	padding: 11px 46px 8px 46px;
+	margin-bottom: 12px;
+	margin-left: 11px;
+}
+
+
+.right-aside .newsletter>h3{
+	margin-top: 16px;
+     font-size: 15px;
+	 background-color: #1F4581;
+	 color: #fff;
+	 padding: 13px 0 11px 13px;
+}
+
+.right-aside .newsletter .asidetrending{
+	width: 236px;
+	border: 1px solid rgb(221, 219, 219);
+}
+
+.right-aside .newsletter .asidetrending>h4{
+	padding-top: 18px;
+	padding-bottom: 9px;
+	padding-left: 11px;
+	font-size: 10px;
+	color: #000;
+}
+
+.right-aside .newsletter .asidetrending>h3{
+	padding-left: 11px;
+	padding-bottom: 16px;
+	color: #3265BD;
+	font-size: 15px;
+}
+
+.right-aside .newsletter .asidetrending>span{
+	padding-left: 11px;
+	padding-bottom: 15px;
+	font-size: 9.5px;
+	color: #787878;
+}
+
+.right-aside .newsletter .asidetrending, .date1{
+	padding-bottom: 15px;
+	color: #787878;
+}
 
 /*Liquidity section */
 
