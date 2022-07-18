@@ -534,5 +534,114 @@ form.search::after {
 	color: #fff;
 	margin-top: 40px;
 	margin-left: 264px;
+	margin-bottom: 27px;
 
+}
+
+
+/*Footer start here */
+
+footer .wrapper{
+	width: 100%;
+	background-color: #1F4581;
+}
+
+.eurodetails{
+	display: flex;
+	margin-left: 187px;
+}
+
+.eurodetails .detail>h1{
+	padding-top: 36px;
+	padding-bottom: 23px;
+	font-size: 30px;
+}
+
+.eurodetails .detail h1>a{
+	text-decoration: none;
+	
+	color: #fff;
+}
+
+.eurodetails .detail>p{
+	color: #fff;
+	font-size: 12px;
+	/*padding-bottom: 156px;         check later*/
+}
+
+.eurodetails .detail2, .detail-head{
+	margin-top: 26px;
+	margin-left: 69.3px;
+	margin-bottom: 12px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.detail2 ul li {
+    padding-bottom: 2px;
+	
+}   
+
+.detail2 ul li a{
+    text-decoration: none;
+	color: #fff;
+	font-size: 12px;
+	margin-left: 69.3px;
+	
+}
+
+.eurodetails .detail3{
+	margin-left: 194px;
+	margin-top: 54px;
+} 
+
+.eurodetails .detail3>h3{
+	color: #fff;
+	font-size: 14px;
+}
+
+.eurodetails .details3, .social{
+	display: flex;
+	gap: 13px;
+	padding-top: 5px;
+}
+
+.eurodetails .details3, .social li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 13px;
+	
+}
+
+
+.euroterms{
+	display: flex;
+	width: 100%;
+	background-color: #14315D;
+	color: #fff;
+	margin-top: 20px;
+}
+
+
+.euroterms .page1 .list {
+	display: flex;
+	gap: 5px;
+	margin-left: 187px;
+	margin-top: 12px;
+	margin-bottom: 8px;
+	
+}
+
+.euroterms .page1 .list li a {
+	color: #fff;
+	font-size: 10px;
+	text-decoration: none;
+	
+}
+
+.euroterms .page2{
+	padding-left: 475px;
+	font-size: 10px;
+	margin-top: 12px;
+	margin-bottom: 8px;
 }
