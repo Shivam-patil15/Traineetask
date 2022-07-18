@@ -60,24 +60,22 @@ table {
 	margin: 0 auto;
 }
 
-.eurofinance{
+header .wrapper{
 	width: 100%;
 	background-color: #1C3F76;
-	margin: 0;
-	padding: 0;
-
 }
 
 .top-header{
 	display: flex;
 	background-color: #1C3F76;
 	color: #E4E4E4;
-	padding-bottom: 103px;
+	padding-bottom: 43px;
+	margin-left: 188px;
 }
 
 .top-header .logo{
-	padding-top: 26px;
-	width: 214px;
+	padding-top: 23px;
+	width: 178px;
 	height: 34px;
 }
 
@@ -86,5 +84,72 @@ table {
 	text-decoration: none;
 	font-size: 34px;
 }
+
+
+
+/* Style the search field */
+form.search input[type=text] {
+	margin-top: 28px;
+	margin-left: 520px;
+	padding: 4px;
+	font-size: 13px;
+	border: 1px solid grey;
+	float: left;
+	width: 166px;
+	background: #f1f1f1;
+  }
+  
+
+  form.search button {
+	float: left;
+	width: 41px;
+	margin-top: 28px;
+	padding: 4px;
+	background: #2196F3;
+	color: white;
+	font-size: 13px;
+	border: 1px solid grey;
+	border-left: none; 
+	cursor: pointer;
+  }
+  
+  form.search button:hover {
+	background: #0b7dda;
+  }
+  
+  form.search::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+
+  /* navigation menu start here*/
+
+  .navigation {
+	width: 100%;
+	margin:  0;
+	padding: 0;
+	background-color: #3371BB;
+	
+  }
+
+  .navigation .menu{
+     display: flex;
+	 background-color: #3371BB;
+	 margin-left: 188px;
+	 
+  }
+
+  .navigation .menu li{
+	list-style: none;
+	padding: 7px;
+
+  }
+
+  .navigation .menu li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+  }
 
 
